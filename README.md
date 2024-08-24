@@ -6,17 +6,16 @@ Make the following modifications:
 2. Delete the `ensemble-config.json` file. (Not subject to change with Ensemble React updates, continue using custom version already in `main`)
 3. Change the `<title>` tag content in `index.html` from "React App" to "Ensemble".
 4. Add the following between `<head>` and `<body>` in `index.html` for Google Analytics integration.
-
 ```
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V7DEWZG0S4"></script>
-<script>  
-  window.dataLayer = window.dataLayer || [];  
-  function gtag() {  
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
     dataLayer.push(arguments);
-  }  
-  gtag("js", new Date());  
-    
-  gtag("config", "G-V7DEWZG0S4");  
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-V7DEWZG0S4");
 </script>
 ```
