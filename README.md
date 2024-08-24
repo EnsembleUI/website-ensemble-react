@@ -20,3 +20,4 @@ Make the following modifications:
   gtag("config", "G-V7DEWZG0S4");
 </script>
 ```
+Upload this modified build folder to the `update-build` branch and merge into `main` to update.
