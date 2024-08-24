@@ -7,8 +7,9 @@ Make the following modifications:
 3. Change the `<title>` tag content in `index.html` from "React App" to "Ensemble".
 4. Add the following between `<head>` and `<body>` in `index.html` for Google Analytics integration.
 
-`<!-- Google tag (gtag.js) -->  
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V7DEWZG0S4"></script>  
+```
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V7DEWZG0S4"></script>
 <script>  
   window.dataLayer = window.dataLayer || [];  
   function gtag() {  
@@ -17,4 +18,5 @@ Make the following modifications:
   gtag("js", new Date());  
     
   gtag("config", "G-V7DEWZG0S4");  
-</script>`
+</script>
+```
